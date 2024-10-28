@@ -94,6 +94,10 @@ Extra Section, Call it Whatever You Want
 
 * Other sort of impressive-sounding thing you did
 
+Simple: \fa{github}
+
+As a link: [\fa{linkedin}](https://www.linkedin.com/in/your_linkedin_user_id/)
+
 ----
 
 > <email@example.com> • +00 (0)00 000 0000 • XX years old\

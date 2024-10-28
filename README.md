@@ -80,6 +80,26 @@ nix build
 
 The built resume will end up in `./result`.
 
+### Using FontAwesome Icons
+
+To use FontAwesome icons in your markdown content, follow these steps:
+
+1. Ensure that FontAwesome is installed on your system.
+2. Add the following lines to the top of your `styles/chmduquesne.tex` file:
+
+```tex
+\usesymbols[fontawesome]
+\def\fa#1{\symbol[fontawesome][#1]}
+```
+
+3. In your markdown content, you can now use FontAwesome icons like this:
+
+```markdown
+Simple: \fa{github}
+
+As a link: [\fa{linkedin}](https://www.linkedin.com/in/your_linkedin_user_id/)
+```
+
 ### Troubleshooting
 
 #### Get versions
